@@ -1,0 +1,55 @@
+{
+  "name": "Catppuccin Mocha",
+
+  "palette": {
+    "black":     "#1e1e2e",
+    "gray":      "#313244",
+    "purple":    "#cba6f7",
+    "blue":      "#b4befe",
+    "white":     "#cdd6f4",
+    "lightGray": "#bac2de",
+    "red":       "#f38ba8",
+    "yellow":    "#f9e2af",
+    "green":     "#a6e3a1",
+    "cyan":      "#94e2d5",
+    "pink":      "#f5c2e7",
+    "orange":    "#fab387"
+  },
+
+  "primary":       "purple",
+  "secondary":     "blue",
+  "success":       "green",
+  "warning":       "yellow",
+  "error":         "red",
+  "background":    "black",
+  "surface":       "gray",
+  "text":          "white",
+  "textSecondary": "lightGray",
+  "border":        "purple",
+  "borderLight":   "blue",
+
+  "button": {
+    "background": "gray",
+    "text":       "purple",
+    "hover":      "purple",
+    "pressed":    "blue"
+  },
+  "textbox": {
+    "background": "black",
+    "text":       "white",
+    "border":     "purple",
+    "focus":      "blue"
+  },
+  "scrollbar": {
+    "track":      "gray",
+    "thumb":      "purple",
+    "thumbHover": "blue"
+  },
+  "contextMenu": {
+    "background": "black",
+    "text":       "white",
+    "hover":      "purple",
+    "hoverText":  "black",
+    "border":     "purple"
+  }
+}

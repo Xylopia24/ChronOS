@@ -1,0 +1,55 @@
+{
+  "name": "Catppuccin Latte",
+
+  "palette": {
+    "black":     "#eff1f5",
+    "gray":      "#ccd0da",
+    "purple":    "#8839ef",
+    "blue":      "#7287fd",
+    "white":     "#4c4f69",
+    "lightGray": "#5c5f77",
+    "red":       "#d20f39",
+    "yellow":    "#df8e1d",
+    "green":     "#40a02b",
+    "cyan":      "#179299",
+    "pink":      "#ea76cb",
+    "orange":    "#fe640b"
+  },
+
+  "primary":       "purple",
+  "secondary":     "blue",
+  "success":       "green",
+  "warning":       "yellow",
+  "error":         "red",
+  "background":    "black",
+  "surface":       "gray",
+  "text":          "white",
+  "textSecondary": "lightGray",
+  "border":        "purple",
+  "borderLight":   "blue",
+
+  "button": {
+    "background": "gray",
+    "text":       "purple",
+    "hover":      "purple",
+    "pressed":    "blue"
+  },
+  "textbox": {
+    "background": "black",
+    "text":       "white",
+    "border":     "purple",
+    "focus":      "blue"
+  },
+  "scrollbar": {
+    "track":      "gray",
+    "thumb":      "purple",
+    "thumbHover": "blue"
+  },
+  "contextMenu": {
+    "background": "black",
+    "text":       "white",
+    "hover":      "purple",
+    "hoverText":  "black",
+    "border":     "purple"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Amber Terminal",
+
+  "palette": {
+    "orange":    "#FFB000",
+    "yellow":    "#FFD966",
+    "black":     "#0D0800",
+    "gray":      "#1F1200",
+    "lightGray": "#3A2200",
+    "red":       "#CC3333",
+    "lime":      "#FFD966"
+  },
+
+  "primary":       "orange",
+  "secondary":     "yellow",
+  "success":       "lime",
+  "warning":       "orange",
+  "error":         "red",
+  "background":    "black",
+  "surface":       "gray",
+  "text":          "orange",
+  "textSecondary": "yellow",
+  "border":        "orange",
+  "borderLight":   "yellow",
+
+  "button": {
+    "background": "gray",
+    "text":       "orange",
+    "hover":      "orange",
+    "pressed":    "yellow"
+  },
+  "textbox": {
+    "background": "black",
+    "text":       "orange",
+    "border":     "orange",
+    "focus":      "yellow"
+  },
+  "scrollbar": {
+    "track":      "gray",
+    "thumb":      "orange",
+    "thumbHover": "yellow"
+  },
+  "contextMenu": {
+    "background": "black",
+    "text":       "orange",
+    "hover":      "orange",
+    "hoverText":  "black",
+    "border":     "orange"
+  }
+}

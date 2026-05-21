@@ -1,0 +1,55 @@
+{
+  "name": "Catppuccin Macchiato",
+
+  "palette": {
+    "black":     "#24273a",
+    "gray":      "#363a4f",
+    "purple":    "#c6a0f6",
+    "blue":      "#b7bdf8",
+    "white":     "#cad3f5",
+    "lightGray": "#b8c0e0",
+    "red":       "#ed8796",
+    "yellow":    "#eed49f",
+    "green":     "#a6da95",
+    "cyan":      "#8bd5ca",
+    "pink":      "#f5bde6",
+    "orange":    "#f5a97f"
+  },
+
+  "primary":       "purple",
+  "secondary":     "blue",
+  "success":       "green",
+  "warning":       "yellow",
+  "error":         "red",
+  "background":    "black",
+  "surface":       "gray",
+  "text":          "white",
+  "textSecondary": "lightGray",
+  "border":        "purple",
+  "borderLight":   "blue",
+
+  "button": {
+    "background": "gray",
+    "text":       "purple",
+    "hover":      "purple",
+    "pressed":    "blue"
+  },
+  "textbox": {
+    "background": "black",
+    "text":       "white",
+    "border":     "purple",
+    "focus":      "blue"
+  },
+  "scrollbar": {
+    "track":      "gray",
+    "thumb":      "purple",
+    "thumbHover": "blue"
+  },
+  "contextMenu": {
+    "background": "black",
+    "text":       "white",
+    "hover":      "purple",
+    "hoverText":  "black",
+    "border":     "purple"
+  }
+}

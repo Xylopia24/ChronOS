@@ -1,0 +1,51 @@
+{
+  "name": "Vault-Tec Blue",
+
+  "palette": {
+    "blue":      "#2B65CC",
+    "lightBlue": "#7FA8F8",
+    "black":     "#08090F",
+    "gray":      "#0E1528",
+    "lightGray": "#1C2A4A",
+    "cyan":      "#4CAACC",
+    "red":       "#CC3333",
+    "yellow":    "#D4C800"
+  },
+
+  "primary":       "blue",
+  "secondary":     "lightBlue",
+  "success":       "cyan",
+  "warning":       "yellow",
+  "error":         "red",
+  "background":    "black",
+  "surface":       "gray",
+  "text":          "blue",
+  "textSecondary": "lightBlue",
+  "border":        "blue",
+  "borderLight":   "lightBlue",
+
+  "button": {
+    "background": "gray",
+    "text":       "blue",
+    "hover":      "blue",
+    "pressed":    "lightBlue"
+  },
+  "textbox": {
+    "background": "black",
+    "text":       "blue",
+    "border":     "blue",
+    "focus":      "lightBlue"
+  },
+  "scrollbar": {
+    "track":      "gray",
+    "thumb":      "blue",
+    "thumbHover": "lightBlue"
+  },
+  "contextMenu": {
+    "background": "black",
+    "text":       "blue",
+    "hover":      "blue",
+    "hoverText":  "black",
+    "border":     "blue"
+  }
+}

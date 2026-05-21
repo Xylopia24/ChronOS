@@ -1,0 +1,55 @@
+{
+  "name": "Catppuccin Frappe",
+
+  "palette": {
+    "black":     "#303446",
+    "gray":      "#414559",
+    "purple":    "#ca9ee6",
+    "blue":      "#babbf1",
+    "white":     "#c6d0f5",
+    "lightGray": "#b5bfe2",
+    "red":       "#e78284",
+    "yellow":    "#e5c890",
+    "green":     "#a6d189",
+    "cyan":      "#81c8be",
+    "pink":      "#f4b8e4",
+    "orange":    "#ef9f76"
+  },
+
+  "primary":       "purple",
+  "secondary":     "blue",
+  "success":       "green",
+  "warning":       "yellow",
+  "error":         "red",
+  "background":    "black",
+  "surface":       "gray",
+  "text":          "white",
+  "textSecondary": "lightGray",
+  "border":        "purple",
+  "borderLight":   "blue",
+
+  "button": {
+    "background": "gray",
+    "text":       "purple",
+    "hover":      "purple",
+    "pressed":    "blue"
+  },
+  "textbox": {
+    "background": "black",
+    "text":       "white",
+    "border":     "purple",
+    "focus":      "blue"
+  },
+  "scrollbar": {
+    "track":      "gray",
+    "thumb":      "purple",
+    "thumbHover": "blue"
+  },
+  "contextMenu": {
+    "background": "black",
+    "text":       "white",
+    "hover":      "purple",
+    "hoverText":  "black",
+    "border":     "purple"
+  }
+}

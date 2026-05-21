@@ -1,0 +1,50 @@
+{
+  "name": "Pip-Boy Classic",
+
+  "palette": {
+    "green":     "#1FD01F",
+    "lime":      "#65FF65",
+    "black":     "#080D08",
+    "gray":      "#0F2010",
+    "lightGray": "#1E3D20",
+    "yellow":    "#D4C800",
+    "red":       "#CC3333"
+  },
+
+  "primary":       "green",
+  "secondary":     "lime",
+  "success":       "lime",
+  "warning":       "yellow",
+  "error":         "red",
+  "background":    "black",
+  "surface":       "gray",
+  "text":          "green",
+  "textSecondary": "lime",
+  "border":        "green",
+  "borderLight":   "lime",
+
+  "button": {
+    "background": "gray",
+    "text":       "green",
+    "hover":      "green",
+    "pressed":    "lime"
+  },
+  "textbox": {
+    "background": "black",
+    "text":       "green",
+    "border":     "green",
+    "focus":      "lime"
+  },
+  "scrollbar": {
+    "track":      "gray",
+    "thumb":      "green",
+    "thumbHover": "lime"
+  },
+  "contextMenu": {
+    "background": "black",
+    "text":       "green",
+    "hover":      "green",
+    "hoverText":  "black",
+    "border":     "green"
+  }
+}
