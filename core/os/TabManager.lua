@@ -8,22 +8,22 @@ local TabManager = {}
 
 -- ── Tab registry ──────────────────────────────────────────────────────────────
 
-local TAB_NAMES = { "STAT", "INV", "DATA", "GAMES", "RADIO", "SETTINGS" }
+local TAB_NAMES = { "STAT", "DATA", "GAMES", "RADIO", "SETTINGS" }
 local TAB_PATHS = {
     STAT     = "tabs.stat",
-    INV      = "tabs.inv",
     DATA     = "tabs.data",
     GAMES    = "tabs.games",
     RADIO    = "tabs.radio",
     SETTINGS = "tabs.settings",
 }
 
-local loadedTabs = {}  -- cache of required tab modules
-local activeTab  = 1   -- index into TAB_NAMES
+local loadedTabs  = {}  -- cache of required tab modules
+local activeTab   = 1   -- index into TAB_NAMES
+local statusCache = { speaker = false, modem = false }
 
 -- ── Layout constants ──────────────────────────────────────────────────────────
 
-local W, H = 80, 30
+local W = 80
 local HEADER_ROW  = 1
 local TABBAR_ROW  = 2
 local SEP_ROW     = 3
@@ -116,7 +116,6 @@ local function drawTabBar()
     local th  = getTheme()
     local fg  = th.primary   or colors.green
     local bg  = th.background or colors.black
-    local hl  = th.background or colors.black   -- active tab BG
     local hlf = th.secondary  or colors.lime    -- active tab FG
 
     bc(bg) tc(fg)
@@ -149,7 +148,7 @@ local function drawStatusBar()
 
     hline(STATUS_ROW, "\x83", fg, bg)
 
-    local st = Peripherals.status()
+    local st = statusCache
     local spk = st.speaker and "\x10 SPK:OK" or "\x10 SPK:--"
     local mdm = st.modem   and "MDM:OK \x11" or "MDM:-- \x11"
 
@@ -349,9 +348,15 @@ function TabManager.run()
         end
     end)
 
-    -- Clock tick task (every second)
-    loop:addTimer(1, function()
+    -- Tick task: every game tick (0.05s = minimum CC timer resolution)
+    loop:addTimer(0.05, function()
         os.queueEvent("chronos_tick")
+    end)
+
+    -- Peripheral status refresh: slow so it never blocks the render path
+    statusCache = Peripherals.status()
+    loop:addTimer(3, function()
+        statusCache = Peripherals.status()
     end)
 
     loop:waitForAll()
