@@ -23,7 +23,6 @@ function P.getModem()
     if not back then return nil end
     local ok, upgrades = pcall(function() return back.upgrades() end)
     if not ok or not upgrades then return nil end
-    -- pocketUnlimited key may be "ender_modem" or "wireless_modem"
     return upgrades.wireless_modem_advanced or upgrades.wireless_modem
 end
 

@@ -7,3 +7,8 @@ Infromation:
 
 Chrono OS Operation manual:
 - N/A (Will update at a later point, things are still W.I.P)
+
+Plans:
+- Get the "STATS" Page to showcase some generic stat information such as "GPS" and other helpful information, Likely won't contain any actual "Health" readouts as that doesn't matter too much in MC as it's provided by the default Interface (Subject to Change).
+- Replace the "INV" TAB with something else, not sure what would be a good replacement, might just fully remove it.
+- Get the "RADIO" TAB working properly, ATM it just plays some generic sounds, might make a dedicated Resourcepack with preset songs, or figure out how to pull actual Radio or Livestreams. (Don't expect this.)
