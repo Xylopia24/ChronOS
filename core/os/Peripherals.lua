@@ -24,7 +24,7 @@ function P.getModem()
     local ok, upgrades = pcall(function() return back.upgrades() end)
     if not ok or not upgrades then return nil end
     -- pocketUnlimited key may be "ender_modem" or "wireless_modem"
-    return upgrades.ender_modem or upgrades.wireless_modem
+    return upgrades.wireless_modem_advanced or upgrades.wireless_modem
 end
 
 -- Returns a status table: { speaker = bool, modem = bool }
